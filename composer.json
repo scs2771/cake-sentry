@@ -1,19 +1,16 @@
 {
-    "name": "connehito/cake-sentry",
+    "name": "scs2771/cake-sentry",
     "description": "Sentry plugin for CakePHP",
     "type": "cakephp-plugin",
     "require": {
-        "php": "^7.2 || ^8.0",
-        "cakephp/cakephp": "^4.0",
+        "php": "^8.2",
+        "cakephp/cakephp": "^5.0.0",
         "sentry/sentry": "^3.2"
     },
     "require-dev": {
-        "cakephp/cakephp-codesniffer": "@stable",
-        "jangregor/phpstan-prophecy": "@stable",
-        "phpspec/prophecy-phpunit": "^2.0",
-        "phpstan/phpstan": "@stable",
-        "phpunit/phpunit": "^8.5 || ^9.3",
-        "symfony/http-client": "^5.2"
+        "cakephp/cakephp-codesniffer": "^5.0",
+        "phpunit/phpunit": "^10.1.0",
+        "symfony/http-client": "^5.3"
     },
     "license": "MIT",
     "autoload": {
@@ -37,6 +34,11 @@
         {
             "name": "Hideki Kinjyo",
             "email": "dev@o0h.in",
+            "role": "Devloper"
+        },
+        {
+            "name": "Shanan Smith",
+            "email": "scsmith@ufl.edu",
             "role": "Maintainer"
         }
     ]
